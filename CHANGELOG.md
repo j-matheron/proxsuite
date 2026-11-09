@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Changed
+- Run the CI jobs (pixi, linux, ros, nix) only when a file that affects the build changes ([#499](https://github.com/Simple-Robotics/proxsuite/pull/499))
+
 ### Fixed
 - Fix dual infeasibility detection when some bounds are infinite (dense and sparse) ([#497](https://github.com/Simple-Robotics/proxsuite/pull/497))
 
