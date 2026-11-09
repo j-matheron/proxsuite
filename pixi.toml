@@ -10,7 +10,7 @@ preview = ["pixi-build"]
 
 [dependencies]
 ccache = "*"
-cmake = ">=3.22"
+cmake = ">=3.22.0"
 cxx-compiler = "*"
 ninja = "*"
 jrl-cmakemodules = ">=2.1.0"
