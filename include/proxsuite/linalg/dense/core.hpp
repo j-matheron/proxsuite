@@ -5,9 +5,9 @@
 #ifndef PROXSUITE_LINALG_DENSE_LDLT_CORE_HPP
 #define PROXSUITE_LINALG_DENSE_LDLT_CORE_HPP
 
-#include <proxsuite/linalg/veg/util/dbg.hpp>
-#include <proxsuite/linalg/veg/util/assert.hpp>
 #include <proxsuite/linalg/veg/memory/dynamic_stack.hpp>
+#include <proxsuite/linalg/veg/util/assert.hpp>
+#include <proxsuite/linalg/veg/util/dbg.hpp>
 
 #if !(defined(__aarch64__) || defined(__PPC64__) || defined(__ppc64__) ||      \
       defined(_ARCH_PPC64))
@@ -54,7 +54,7 @@
     LDLT_ID(stride) * LDLT_ID(cols),                                           \
     ::proxsuite::linalg::dense::_detail::align<__VEG_PP_REMOVE_PAREN(          \
       Type)>());                                                               \
-  auto Name /* NOLINT */ =                                                     \
+  auto Name /* NOLINTING */ =                                                  \
     ::Eigen::Map<::Eigen::Matrix<__VEG_PP_REMOVE_PAREN(Type),                  \
                                  ::Eigen::Dynamic,                             \
                                  ::Eigen::Dynamic,                             \
