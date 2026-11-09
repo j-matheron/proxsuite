@@ -191,7 +191,7 @@ The chart above reports the performance profiles of different solvers. It is cla
 *Note: All these results have been obtained with a 11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz CPU.*
 ## **QPLayer**
 
-**QPLayer** enables to use a QP as a layer within standard learning architectures. More precisely, QPLayer differentiates over $\theta$ the primal and dual solutions of QP of the form
+**QPLayer** enables to use a QP as a layer within standard learning architectures. More precisely, QPLayer differentiates over $\theta$ the primal and dual solutions of QP of the form.
 
 $$
 \begin{align}
