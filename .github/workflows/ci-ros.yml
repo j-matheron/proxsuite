@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Heavy jobs run only if a file that affects the build changes. Other paths are skipped.
+  # Heavy jobs run only if a file that affects the build. Other paths are skipped.
   filter-paths:
     runs-on: ubuntu-latest
     outputs:
