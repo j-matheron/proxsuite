@@ -9,7 +9,7 @@ apt_deps = [
   "libsimde-dev",
   "nanobind-dev",
   "python3-numpy",
-  "python3-scipy",
+  "python-scipy",
 ]
 url = "."
 src_deps = ["jrl-cmakemodules"]
